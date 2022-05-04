@@ -1,0 +1,35 @@
+:root {
+    --box-shadow: 0 3px 6px #00000029;
+    --main-button: #0a8020;
+    --secondary-button: #086018;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    overflow: hidden;
+    height: 110px;
+    box-shadow: var(--box-shadow);
+    width: 100%;
+}
+
+header .logo {
+    margin: 18px 50px 18px 50px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: #2a2a2a;
+}
+
+.logo img {
+    border-radius: 100%;
+}
+
+.logo h1 {
+    margin-left: 15px;
+}

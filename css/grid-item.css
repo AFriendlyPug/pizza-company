@@ -1,0 +1,37 @@
+:root {
+    --box-shadow: 0 3px 6px #00000029;
+    --main-button: #0a8020;
+    --secondary-button: #086018;
+}
+
+.grid-item {
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: var(--box-shadow);
+    text-decoration: none;
+    color: black;
+    max-width: 431px;
+    margin: auto;
+}
+
+.grid-item img {
+    border-radius: 10px 10px 0 0;
+}
+
+.grid-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    margin: 0 20px 0 20px;
+}
+
+.item-name {
+    font-size: 26px;
+}
+
+.item-cost {
+    font-size: 23px;
+    font-weight: lighter;
+}
