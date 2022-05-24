@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+    --font-family: "Lato", sans-serif;
+
+    --light-text-color: #333333;
+    --light-header-color: #ffffff;
+    --light-body-color: #d5d5d5;
+    --light-content-color: #f4f4f4;
+    --light-highlight-color: #c5d386;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--light-header-color);
+    box-shadow: 0 0 10px var(--light-header-color);
+}
+
+footer a {
+    padding: 10px;
+
+    color: inherit;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--light-highlight-color);
+}

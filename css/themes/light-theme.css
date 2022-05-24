@@ -1,0 +1,8 @@
+:root {
+    /* Light Theme */
+    --light-text-color: #333333;
+    --light-header-color: #ffffff;
+    --light-body-color: #d5d5d5;
+    --light-content-color: #f4f4f4;
+    --light-highlight-color: #9add93;
+}

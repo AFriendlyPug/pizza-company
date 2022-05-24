@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+    --font-family: "Lato", sans-serif;
+
+    /* Light Theme */
+    --light-text-color: #333333;
+    --light-header-color: #ffffff;
+    --light-body-color: #d5d5d5;
+    --light-content-color: #f4f4f4;
+    --light-highlight-color: #c5d386;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--light-text-color);
+    background-color: var(--light-body-color);
+}
+
+header {
+    height: 60px;
+    z-index: 1;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: var(--light-header-color);
+    box-shadow: 0 0 10px var(--light-header-color);
+}
+
+.title {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+}
+
+.title h1 {
+    height: inherit;
+    display: inherit;
+    padding-left: 5px;
+}
+
+.title a {
+    height: inherit;
+
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    color: inherit;
+}
+
+header button {
+    height: 100%;
+    padding: 0 10px 0 10px;
+
+    display: flex;
+    align-items: center;
+
+    font-family: inherit;
+    font-size: 16px;
+    text-decoration: none;
+
+    background-color: inherit;
+    border: none;
+    color: inherit;
+}
+
+header button:hover {
+    cursor: pointer;
+    background-color: var(--light-highlight-color);
+}
+
+nav {
+    height: 100%;
+}
+
+ul {
+    height: inherit;
+
+    display: flex;
+
+    list-style: none;
+}
+
+li {
+    height: inherit;
+    width: 75px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: var(--light-highlight-color);
+}
+
+ul a {
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,0 +1,39 @@
+:root {
+    /* Dark Theme */
+    --dark-text-color: #ffffff;
+    --dark-header-color: #242832;
+    --dark-body-color: #5d6274;
+    --dark-content-color: #2c2e36;
+    --dark-highlight-color: #70a877;
+}
+
+.dark-theme {
+    color: var(--dark-text-color);
+    background-color: var(--dark-body-color);
+}
+
+.dark-theme header {
+    background-color: var(--dark-header-color);
+    box-shadow: 0 0 10px var(--dark-header-color);
+}
+
+.dark-theme li:hover {
+    background-color: var(--dark-highlight-color);
+}
+
+.dark-theme header button:hover {
+    background-color: var(--dark-highlight-color);
+}
+
+.dark-theme section {
+    background-color: var(--dark-content-color);
+}
+
+.dark-theme footer {
+    background-color: var(--dark-header-color);
+    box-shadow: 0 0 10px var(--dark-header-color);
+}
+
+.dark-theme footer a:hover {
+    color: var(--dark-highlight-color);
+}
