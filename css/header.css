@@ -114,3 +114,17 @@ ul a {
     text-decoration: none;
     color: inherit;
 }
+
+.subheader {
+    display: flex;
+    justify-content: space-around;
+
+    background-color: var(--light-header-color);
+    box-shadow: 0 0 10px var(--light-header-color);
+
+    z-index: 1;
+    position: fixed;
+    top: 60px;
+    height: 60px;
+    width: 100%;
+}
